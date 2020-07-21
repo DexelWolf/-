@@ -1,0 +1,10 @@
+
+function loginClick() {
+    var elem1 = document.getElementById("emailInput");
+    var elem2 = document.getElementById("password");
+    var elem3 = document.getElementById("checkbox");
+    console.log(elem1.value);
+    console.log(elem2.value);
+    console.log(elem3.checked);
+
+}
