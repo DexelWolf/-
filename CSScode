@@ -1,0 +1,13 @@
+.main {
+  float: none;
+  border: solid black 3px;
+  width: 235px;
+  height: auto;
+  margin: auto;
+  padding: 10px;
+  background-color: #82afba;
+}
+
+.button {
+  float: right;
+}
