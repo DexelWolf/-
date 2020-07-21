@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="dz1.css">
+    <script src="dz1.js"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div id="email">Email:<br>
+            <input type="text" id="emailInput" placeholder="Введите Email">
+        </div>
+
+        <div id="password">Password:<br>
+            <input type="password">
+        </div>
+
+        <label>
+            <input type="checkbox" id="checkbox" checked>Запомнить меня
+            <input type="button" value="Войти" class="button" onclick="loginClick()" id="login">
+        </label>
+
+        <div></div>
+    </div>
+
+
+</body>
+
+</html>
